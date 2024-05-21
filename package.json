@@ -1,0 +1,21 @@
+{
+  "name": "cardanoscan-js-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "packageManager": "yarn@4.2.2",
+  "scripts": {
+    "clean": "rm -rf node_modules",
+    "serve": "nodemon index.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "cardanoscan-js": "file:../stricahq-cardanoscan-js-1.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.2"
+  }
+}
